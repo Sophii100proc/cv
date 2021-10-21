@@ -11,7 +11,7 @@
 
 .about-me h3 {
     margin: 130px 0px 20px 40px ;
-    padding-top: 70px;
+    padding-top: 50px;
     font-weight: bold;
     font-size: 40px;
     color: var(--text-color);
@@ -31,7 +31,7 @@
     min-height: 400px;  
     margin-top: 50px;
 }
-.skill {
+.skills {
     max-width: 1200px;
         margin: auto;
 }
@@ -40,29 +40,112 @@
     margin-left: 5px;
     font-weight: bold;
     font-size: 25px;
-    color: var(--main-color);
+    color: var(--text-color);
     font-family: 'Nunito', sans-serif;
 }
 .hard-skills p {
     font-size: 20px; 
     font-family: 'Nunito', sans-serif;
     color: var(--main-color);
+    margin-top: 20px;
+    margin-left: 5px;;
+    font-weight: bold;
 }
 .skills-container {
     margin-top: 70px;
     font-family: 'Nunito', sans-serif;
     color: var(--text-color);
     font-size: 20px; 
-    display: block;
+    margin-left: 70px;
 }
 
-@media (min-width: 600) {
-    .skills-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-        flex: 1;
-    }
-    
+.software-use {
+    max-width: 1200px;
+        margin: auto;
+        
 }
+
+.software-use h2 
+    {
+        margin: 50px 0px 20px 40px ;
+        padding-top: 70px;
+        font-weight: bold;
+        font-size: 40px;
+        color: var(--text-color);
+    }
+    .software-use h3 {
+        font-size: 25px; 
+    font-family: 'Nunito', sans-serif;
+    color: var(--main-color);
+    margin-top: 30px;
+    margin-left: 5px;;
+    font-weight: bold;
+    }
+
+.work-experience {
+    margin: auto;
+    max-width: 1200px;
+}
+    .my-work-experience  h2{
+        margin: 40px 0px 20px 40px ;
+        padding-top: 70px;
+        font-weight: bold;
+        font-size: 40px;
+        color: var(--text-color);
+        
+    }
+
+    .work-experience h4 {
+        color: var(--main-color);
+        font-size: 30px; 
+        font-family: 'Nunito', sans-serif;
+        margin-top:20px;
+        margin-left: 5px;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+    #cv {
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    #em {
+        font-size: 22px; 
+        text-decoration: underline;
+    }
+    #em:hover{
+        color: var(--text-color);
+        text-decoration: underline;
+        font-size: 24px;  
+    }
+    #cv:hover {
+        color: var(--text-color);
+        text-decoration: underline;
+    }
+    .company img {
+        
+        border: 1px;
+        border-radius: 3px;
+        display: block;
+        margin: 60px 0px 10px 5px;
+    width: 100%;
+    max-width: 120px;
+    }
+    .company h3 {
+        font-weight: bold;
+        font-family:'Nunito', sans-serif;
+        margin-left: 5px;
+        color: var(--main-color);
+        font-size: 25px;
+    }
+    .company h6 {
+        margin-left: 5px;
+        color: var(--text-color);
+        font-family:'Nunito', sans-serif;
+        font-size: 15px ;
+    }
+    .company #position {
+        margin: 10px 0px 10px 5px;
+        color: var(--main-color);
+        font-family:'Nunito', sans-serif;
+        font-size: 20px;
+    }
