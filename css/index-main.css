@@ -99,9 +99,8 @@
         color: var(--main-color);
         font-size: 30px; 
         font-family: 'Nunito', sans-serif;
-        margin-top:20px;
-        margin-left: 5px;
-        margin-bottom: 40px;
+        margin:20px 0px 40px 5px;
+        
         font-weight: bold;
     }
     #cv {
@@ -149,3 +148,63 @@
         font-family:'Nunito', sans-serif;
         font-size: 20px;
     }
+    .info {
+        margin-top: 40px;
+        
+    }
+    .info h5, .duties h5{
+        margin: 20px 0px 0px 5px;
+        color: var(--text-color);
+        font-size: 15px;
+        font-weight: bold;
+        font-family:'Nunito', sans-serif;
+    }
+    .info-container {
+        font-size: 15px;
+        font-weight: bold;
+        font-family:'Nunito', sans-serif;
+        color: var(--main-color);
+        margin: 10px 0px 0px 5px;
+    }
+    .companies {
+        max-width: 1200px;
+        margin: auto;
+        display: block;
+    }
+    @media(min-width: 600px) {
+        .companies {
+            display: flex;
+    }
+    .info {
+        flex-direction: column;
+        margin: auto;
+    }
+    .company img {
+        border: 1px;
+        border-radius: 3%;
+        display: block;
+        margin: 20px 0px 10px 5px;
+    width: 100%;
+    max-width: 120px;
+    }
+}
+
+.education {
+    max-width: 1200px;
+    margin: auto; 
+}
+.my-education h3 {
+    margin: 50px 0px 20px 40px ;
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--text-color);
+}
+.my-education h4 {
+    color: var(--main-color);
+        font-size: 30px; 
+        font-family: 'Nunito', sans-serif;
+        margin:20px 0px 40px 5px;
+        font-weight: bold;
+
+}
